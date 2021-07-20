@@ -121,6 +121,9 @@ position: absolute;
          transform: translate(0, -0px);
      }
  }
+ div.modal{
+     display:none;
+ }
 /*
  div.modal {
      display:inline-block;
@@ -157,7 +160,7 @@ div.modcont{
             -webkit-animation-duration: 0.5s;
             animation-name: modal-animation;
             animation-duration: 0.5s;
-            display:none;
+            
         }
           
         @-webkit-keyframes modal-animation {
