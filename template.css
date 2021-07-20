@@ -137,7 +137,7 @@ position: absolute;
 
 
  }
-*/
+
 
 div.modcont{
     font-family: "Helvetica l", monospace;
@@ -150,13 +150,14 @@ div.modcont{
 
 }
 
-
+*/
 .modal{
             padding: 10px 10px 10px 10px;
             -webkit-animation-name: modal-animation;
             -webkit-animation-duration: 0.5s;
             animation-name: modal-animation;
             animation-duration: 0.5s;
+            display:none;
         }
           
         @-webkit-keyframes modal-animation {
