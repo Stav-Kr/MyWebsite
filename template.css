@@ -1,3 +1,4 @@
+
  h1 {
      color: #ffc247;
      font-size: xxx-large;
@@ -23,45 +24,24 @@
 
  html {
 
-
-
-
-
      background-color: #373F51;
      background-size: cover;
-
-
  }
 
- /* for html: #2A403D
- #748B6F
-#0E0B16;
-#27393f
-
- */
  a:link {
      color: black;
      text-decoration: none;
  }
-
 
  a:visited {
      color: black;
      text-decoration: none;
  }
 
-
  h3:hover {
      color: #43b1ac;
  }
 
-
-
- /*
-#E59560
-position: absolute;
-     top: 65% ;
-     left: 40%; */
  button:hover {
      color: #43b1ac;
  }
@@ -91,18 +71,22 @@ position: absolute;
      animation-duration: 3s;
      animation-iteration-count: infinite;
      animation-timing-function: ease-in-out;
-     height: 300px;
-     width: 300px;
+     height: 100%;
+     width: 100%;
+     max-height: 300px;
+     max-width: 300px;
      display: block;
      margin: 0 auto;
  }
 
  .floating2 {
 
-    
+    padding-top: 10px;
      filter: invert(58%) sepia(79%) saturate(242%) hue-rotate(156deg) brightness(88%) contrast(80%);
-     height: 500px;
-     width: 500px;
+     height: 100%;
+     width: 100%;
+     max-height: 500px;
+     max-width: 500px;
      display: block;
      margin: auto;
      color: #639DBB
@@ -124,36 +108,7 @@ position: absolute;
  div.modal{
      display:none;
  }
-/*
- div.modal {
-     display:inline-block;
-     position:relative; 
-    left:50%;
-     transform: translate(-50%, -50%);
-     width: auto;
-     background-color: #637092;
-     padding: 3rem;
-     border-radius: 5px;
-     box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.3);
-     z-index: 10;
-     font-family: "Helvetica l", monospace;
 
-
- }
-
-
-div.modcont{
-    font-family: "Helvetica l", monospace;
-    border-radius: 12px;   
-    background-color:aliceblue;
-    margin: auto;
-    padding: 50px;
-    width: auto;
-    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.9),0 7px 20px 0 rgba(0,0,0,0.9);
-
-}
-
-*/
 .modal{
             padding: 10px 10px 10px 10px;
             -webkit-animation-name: modal-animation;
@@ -195,13 +150,14 @@ div.modcont{
  }
 
  .clsbtn:hover,
+
  .clsbtn:focus {
      color: #BACEC1;
      text-decoration: none;
      cursor: pointer;
  }
 
- img {
+ #glass {
      filter: invert(82%) sepia(75%) saturate(1728%) hue-rotate(321deg) brightness(102%) contrast(101%);
  }
 
@@ -210,20 +166,11 @@ div.modcont{
  }
 
  .center {
-
-
      border-radius: 10px;
      box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
-
-
-
-
-
-
-
-
-
-     filter: none
+     filter: none;
+     max-width: 900px;
+     max-height: 700px;
  }
 
  p {
