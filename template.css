@@ -86,7 +86,7 @@ position: absolute;
  }
 
  .floating {
-     filter: invert(82%) sepia(75%) saturate(1728%) hue-rotate(321deg) brightness(102%) contrast(101%);
+     filter: invert(83%) sepia(63%) saturate(1650%) hue-rotate(322deg) brightness(105%) contrast(104%);
      animation-name: floating;
      animation-duration: 3s;
      animation-iteration-count: infinite;
