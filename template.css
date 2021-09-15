@@ -212,7 +212,7 @@ div.modcont{
  .center {
 
 
-     border-radius: 0px;
+     border-radius: 10px;
      box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
 
 
@@ -231,13 +231,13 @@ div.modcont{
      background: none;
      border: none;
      margin: 30px;
-     padding: 0;
+     padding: 50;
 
      font-size: large;
      font-family: "Helvetica l", monospace;
      font-weight: bold;
      /*font-size: x-large;*/
-     text-align: left;
+     text-align: center;
      font-family: "Helvetica l", monospace;
      color: lavender;
  }
@@ -252,7 +252,7 @@ div.modcont{
      font-family: "Helvetica l", monospace;
      font-weight: bold;
      /*font-size: x-large;*/
-     text-align: left;
+     text-align: center;
      font-family: "Helvetica l", monospace;
      color: lavender;
 
@@ -268,7 +268,7 @@ div.modcont{
      font-family: "Helvetica l", monospace;
      font-weight: bold;
      /*font-size: x-large;*/
-     text-align: left;
+     text-align: center;
      font-family: "Helvetica l", monospace;
      color: #5B6886;
  }
