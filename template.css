@@ -23,8 +23,8 @@
  }
 
  html {
-
-     background-color: #373F51;
+     
+     background-color: #2C3539;
      background-size: cover;
  }
 
@@ -139,7 +139,7 @@
                 opacity: 1;
             }
         }
- 
+ /*#373F51*/
 
 .clsbtn {
      color: #ffc247;
