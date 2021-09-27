@@ -23,7 +23,7 @@
  }
 
  html {
-     
+
      background-color: #000000;
      background-size: cover;
  }
@@ -98,7 +98,8 @@
      }
 
      65% {
-         transform: translate(0, 15px);
+         transf
+         orm: translate(0, 15px);
      }
 
      to {
@@ -114,8 +115,7 @@
             -webkit-animation-name: modal-animation;
             -webkit-animation-duration: 0.5s;
             animation-name: modal-animation;
-            animation-duration: 0.5s;
-            
+            animation-duration: 2.0s;
         }
           
         @-webkit-keyframes modal-animation {
@@ -139,14 +139,14 @@
                 opacity: 1;
             }
         }
- /*#373F51*/
+ 
 
 .clsbtn {
      color: #ffc247;
      
      float: right;
      font-size: xx-large;
-
+     
  }
 
  .clsbtn:hover,
@@ -155,6 +155,7 @@
      color: #BACEC1;
      text-decoration: none;
      cursor: pointer;
+     
  }
 
  #glass {
@@ -176,11 +177,11 @@
  p {
 
      background: none;
-     border: none;
+     border:none;
      margin: 30px;
-     padding: 50;
-
-     font-size: large;
+     padding: 10;
+    
+     font-size: x-large;
      font-family: "Helvetica l", monospace;
      font-weight: bold;
      /*font-size: x-large;*/
