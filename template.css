@@ -98,8 +98,7 @@
      }
 
      65% {
-         transf
-         orm: translate(0, 15px);
+         transform: translate(0, 15px);
      }
 
      to {
