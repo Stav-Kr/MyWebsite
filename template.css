@@ -156,7 +156,9 @@
      cursor: pointer;
      
  }
-
+#abt{
+    font-size: x-large;
+}
  #glass {
      filter: invert(82%) sepia(75%) saturate(1728%) hue-rotate(321deg) brightness(102%) contrast(101%);
  }
@@ -219,3 +221,104 @@
      font-family: "Helvetica l", monospace;
      color: #5B6886;
  }
+.container{
+    background-color: black;
+      
+    /*background: 
+    linear-gradient(to right, #eb753f 0%, #6fa5ec 100%);*/
+    text-align: center;
+    font-family: "Helvetica l", monospace;
+}
+
+
+/*
+.container{
+    
+    padding-top: 0.5%;*
+e42a9d
+}
+*/
+
+.dice-section{
+    
+    margin: 0px 50px;
+    display: inline-block; 
+    
+}
+
+
+p{
+    font-size: xx-large;
+    font-family: "Helvetica l", monospace;
+    font-weight: bold;
+    color: white;
+}
+
+img{
+
+    width: 150px;
+    height: 150px;
+}
+
+.headers{
+    /*font-family: 'Courier New', Courier, monospace;*/
+    font-family: "Helvetica l", monospace;
+    color: white;
+}
+
+.playBtn{
+    margin: 10px;
+    background-color: transparent;
+    background:none;
+    
+    
+}
+.score{
+    font-family: "Helvetica l", monospace;
+}
+.btnClick {
+    
+    background-color:black;
+
+    font-family: "Helvetica l", monospace;
+    border-radius: 0px;
+    
+    color: #ffc247;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    width: 190px;
+    cursor: pointer;
+    margin: 10px;
+    
+}
+.big_dice{
+    text-align: center;
+}
+
+
+button:hover{
+    color: #43b1ac;
+}
+
+.rotate {
+  animation: rotation 6s;
+}
+
+.linear {
+  animation-timing-function: linear;
+}
+
+.infinite {
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
