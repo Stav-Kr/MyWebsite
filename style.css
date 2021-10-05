@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top_wrapper{
+    
+    width: 100%;
+}
+
+.me{
+    padding: 30px 30px 20px;
+    font-size: large;
+    line-height: 30px;
+}
+
+h1{
+    color: #ffc247;
+    text-align: center;
+    padding: 30px;
+}
+
+ .backBtn:hover {
+    color: #43b1ac;
+    
+}
+a:link{
+    text-decoration: none;
+}
+
+
+.backBtn{
+    font-size: xx-large;
+}
