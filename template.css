@@ -1,9 +1,13 @@
 
+ body {
+    font-family: "Railway", sans-serif;
+}
+ 
  h1 {
      color: #ffc247;
      font-size: xxx-large;
      text-align: center;
-     font-family: "Helvetica l", monospace;
+     
 
  }
 
@@ -14,17 +18,17 @@
      padding: 0;
      cursor: pointer;
      font-size: x-large;
-     font-family: "Helvetica l", monospace;
+     
      font-weight: bold;
      /*font-size: x-large;*/
      text-align: center;
-     font-family: "Helvetica l", monospace;
+     
      color: #ffc247;
  }
 
  html {
 
-     background-color: #000000;
+     background-color: black;
      background-size: cover;
  }
 
@@ -62,7 +66,7 @@
      cursor: pointer;
      font-size: x-large;
      font-weight: bold;
-     font-family: "Helvetica l", monospace;
+     
  }
 
  .floating {
@@ -183,142 +187,30 @@
      padding: 10;
     
      font-size: x-large;
-     font-family: "Helvetica l", monospace;
+     
      font-weight: bold;
      /*font-size: x-large;*/
      text-align: center;
-     font-family: "Helvetica l", monospace;
+     
      color: lavender;
  }
 
- h5 {
-     background: none;
-     border: none;
-     margin: 30px;
-     padding: 0;
-
-     font-size: medium;
-     font-family: "Helvetica l", monospace;
-     font-weight: bold;
-     /*font-size: x-large;*/
-     text-align: center;
-     font-family: "Helvetica l", monospace;
-     color: lavender;
-
- }
-
- h6 {
-     background: none;
-     border: none;
-     margin: 30px;
-     padding: 0;
-     font-size: small;
-
-     font-family: "Helvetica l", monospace;
-     font-weight: bold;
-     /*font-size: x-large;*/
-     text-align: center;
-     font-family: "Helvetica l", monospace;
-     color: #5B6886;
- }
-.container{
-    background-color: black;
-      
-    /*background: 
-    linear-gradient(to right, #eb753f 0%, #6fa5ec 100%);*/
-    text-align: center;
-    font-family: "Helvetica l", monospace;
-}
 
 
-/*
-.container{
+.top_wrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     
-    padding-top: 0.5%;*
-e42a9d
-}
-*/
-
-.dice-section{
-    
-    margin: 0px 50px;
-    display: inline-block; 
-    
-}
-
-
-p{
-    font-size: xx-large;
-    font-family: "Helvetica l", monospace;
-    font-weight: bold;
-    color: white;
-}
-
-img{
-
-    width: 150px;
-    height: 150px;
-}
-
-.headers{
-    /*font-family: 'Courier New', Courier, monospace;*/
-    font-family: "Helvetica l", monospace;
-    color: white;
-}
-
-.playBtn{
-    margin: 10px;
-    background-color: transparent;
-    background:none;
-    
-    
-}
-.score{
-    font-family: "Helvetica l", monospace;
-}
-.btnClick {
-    
-    background-color:black;
-
-    font-family: "Helvetica l", monospace;
-    border-radius: 0px;
-    
-    color: #ffc247;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
     padding: 10px;
-    width: 190px;
-    cursor: pointer;
-    margin: 10px;
-    
 }
-.big_dice{
-    text-align: center;
+img{
+    filter:  invert(74%) sepia(71%) saturate(474%) hue-rotate(338deg) brightness(101%) contrast(103%);
+    width: 50px;
+    height: 50px;
 }
 
-
-button:hover{
-    color: #43b1ac;
-}
-
-.rotate {
-  animation: rotation 6s;
-}
-
-.linear {
-  animation-timing-function: linear;
-}
-
-.infinite {
-  animation-iteration-count: infinite;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
+img:hover{
+    filter: invert(44%) sepia(18%) saturate(649%) hue-rotate(184deg) brightness(88%) contrast(92%);
 }
