@@ -3,15 +3,18 @@
     padding: 0;
 }
 
-.top_wrapper{
-    
-    width: 100%;
-}
-
 .me{
     padding: 30px 30px 20px;
-    font-size: large;
+    font-size: x-large;
     line-height: 30px;
+    color: lavender; 
+    display: block;
+    background: none;
+    border:none;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;"
+    
 }
 
 h1{
@@ -24,6 +27,7 @@ h1{
     color: #43b1ac;
     
 }
+
 a:link{
     text-decoration: none;
 }
@@ -32,3 +36,8 @@ a:link{
 .backBtn{
     font-size: xx-large;
 }
+
+@media (max-width: 991px)  {
+   .me {
+    font-size: medium;
+  }
