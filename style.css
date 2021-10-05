@@ -13,18 +13,20 @@
     border:none;
     margin: auto;
     font-weight: bold;
-    text-align: center;"
+    text-align: center;
     
 }
 
 h1{
     color: #ffc247;
     text-align: center;
-    padding: 30px;
+    padding-top: 60px;
+    
 }
 
  .backBtn:hover {
     color: #43b1ac;
+
     
 }
 
@@ -35,9 +37,16 @@ a:link{
 
 .backBtn{
     font-size: xx-large;
+    padding-top: 2px;
 }
+.me{
+    max-width: 500px;
+    padding: 5px 5px;
+}
+
 
 @media (max-width: 991px)  {
    .me {
     font-size: medium;
   }
+}

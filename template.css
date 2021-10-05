@@ -4,12 +4,19 @@
 }
  
  h1 {
-     color: #ffc247;
-     font-size: xxx-large;
-     text-align: center;
+    color: #ffc247;
+    font-size: xx-large;
+    text-align: center;
      
-
  }
+
+ span{
+    text-decoration: underline;
+    text-decoration-thickness: 4.5px;
+    text-decoration-color: #43b1ac;
+   
+}
+
 
  h3 {
      background: none;
@@ -28,7 +35,7 @@
 
  html {
 
-     background-color: black;
+     background-color: #000000;
      background-size: cover;
      
  }
