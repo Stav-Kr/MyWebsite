@@ -140,3 +140,27 @@ img{
 img:hover{
     filter: invert(44%) sepia(18%) saturate(649%) hue-rotate(184deg) brightness(88%) contrast(92%);
 }
+
+@media (max-width: 991px)  {
+    .floating {
+     filter:  invert(74%) sepia(71%) saturate(474%) hue-rotate(338deg) brightness(101%) contrast(103%);
+     animation-name: floating;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     animation-timing-function: ease-in-out;
+     height: 40%;
+     width: 40%;
+     max-height: 300px;
+     max-width: 300px;
+     display: block;
+     margin: 0 auto;
+    }
+    h1,h2,h3,h4{
+        font-size: x-large;
+    }
+    img{
+        width: 40px;
+        height: 40px;
+        
+    }
+}
