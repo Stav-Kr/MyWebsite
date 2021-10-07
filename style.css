@@ -44,9 +44,21 @@ a:link{
     padding: 5px 5px;
 }
 
+.myself{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
 
 @media (max-width: 991px)  {
    .me {
     font-size: medium;
   }
+
+  .myself{
+    width: 100px;
+    height: 100px;
+    }
 }
