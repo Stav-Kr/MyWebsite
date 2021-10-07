@@ -3,19 +3,6 @@
     font-family: "Railway", sans-serif;
 }
  
- h1 {
-    color: #ffc247;
-    font-size: xx-large;
-    text-align: center;
-     
- }
-
- span{
-    text-decoration: underline;
-    text-decoration-thickness: 4.5px;
-    text-decoration-color: #43b1ac;
-   
-}
 
 
  h3 {
@@ -139,6 +126,30 @@ img{
 
 img:hover{
     filter: invert(44%) sepia(18%) saturate(649%) hue-rotate(184deg) brightness(88%) contrast(92%);
+}
+
+.greet{
+font-size: x-large;
+color: #000000;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #ffc247;
+
+
+font-size: xx-large;
+text-align: center;
+}
+
+
+.stav{
+font-size: 30px;
+color: #ffc247;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #ffc247;
+
+
+font-size: xx-large;
+text-align: center;
+
 }
 
 @media (max-width: 991px)  {
