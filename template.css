@@ -50,6 +50,7 @@
      width: 150px;
      display: block;
      margin: 0 auto;
+     
 
  }
 
@@ -63,6 +64,7 @@
      font-weight: bold;
      
  }
+
 
  .floating {
      filter:  invert(74%) sepia(71%) saturate(474%) hue-rotate(338deg) brightness(101%) contrast(103%);
@@ -111,7 +113,7 @@
  }
 
 .top_wrapper{
-    position: absolute;
+    position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -120,8 +122,15 @@
 
 img{
     filter:  invert(74%) sepia(71%) saturate(474%) hue-rotate(338deg) brightness(101%) contrast(103%);
-    width: 50px;
-    height: 50px;
+   
+    margin-left: 11%;
+    margin-right: auto;
+    width: 10%;
+        
+        
+    
+     
+    
 }
 
 img:hover{
@@ -170,20 +179,22 @@ text-align: center;
         font-size: x-large;
         width: 100%;
         text-align: center;
+        
     }
     img{
-        width: 50px;
-        height: 50px;
-        
-        display: inline-block;
+    margin-left: 10%;
+    margin-right: auto;
+    width: 10%;
         
         
     }
+    img.center {
+     height: 150px;
+     width: 150px;
+     display: block;
+     margin: 0 auto;
 
-    h3{
-        display:contents;
-        text-align: center;
-        width: 100%;
-        
-    }
+}
+
+    
 }
