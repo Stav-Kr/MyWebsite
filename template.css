@@ -152,7 +152,7 @@ text-align: center;
 
 }
 
-@media (max-width: 600px)  {
+@media (max-width: 900px)  {
     .floating {
      filter:  invert(74%) sepia(71%) saturate(474%) hue-rotate(338deg) brightness(101%) contrast(103%);
      animation-name: floating;

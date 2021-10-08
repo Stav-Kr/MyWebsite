@@ -10,17 +10,20 @@
 */
 
 *{
-    box-sizing: border-box;
+    box-sizing:content-box;
 
 }
 
-html,body{
+
+
+html{
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #ffc247;
+    
 }
 
 .wrapper{
@@ -108,21 +111,35 @@ h1 {
  
 
 @media (max-width: 991px)  {
-   .wrapper {
-    
-    display:inline-block;
+
+    html{
+    background: #ffc247;
     width: 100%;
     height: 100%;
-    justify-content: space-around;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: #ffc247;
+    
+   
+   
+}
+
+   .wrapper {
+    
+    display:inline;
+    
+    
   }
+  
 
   .card{
     
-    display:contents;
-    grid-template-columns: 100px;
-    grid-template-rows: 50px 50px 50px;
+    display: block;
+    grid-template-columns: 300px;
+    grid-template-rows: 2100px 2100px 80px;
     grid-template-areas: 'img' 'text' 'link';
-
+    height: 250px;
     font-family: "Railway", sans-serif;
     border-radius: 18px;
     background: black;
@@ -135,24 +152,23 @@ h1 {
     .card-text{
         
         grid-area: text;
-        margin: 50px;
+        padding-top: 2%;
         color: white;
     }
 
     a{
-    color: black;
+    color: b#ffc247;
+    padding-bottom: 2%;
     }
 
     .name {
     color: black;
     font-size: medium;
     text-align: center;
-    
-    
 
      
     }
- 
+    
 
 
   
