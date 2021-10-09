@@ -17,17 +17,35 @@
     
 }
 
-h1{
+.backBtn{
     color: #ffc247;
     text-align: center;
     padding-top: 60px;
-    
 }
 
  .backBtn:hover {
     color: #43b1ac;
 
     
+}
+.name{
+    
+    color:transparent;
+    text-align: center;
+    padding-top: 60px;
+    -webkit-text-stroke: #ffc247;
+    -webkit-text-stroke-width: 1px;
+    background:url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    background-color: #ffc247;
+    animation: back 20s linear infinite;
+
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
 }
 
 a:link{

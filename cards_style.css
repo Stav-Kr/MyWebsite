@@ -14,7 +14,9 @@
 
 }
 
-
+.backBtn:hover{
+    color: #43b1ac;
+}
 
 html{
     width: 100%;
@@ -110,7 +112,7 @@ h1 {
  }
  
 
-@media (max-width: 991px)  {
+@media (max-width: 950px)  {
 
     html{
     background: #ffc247;

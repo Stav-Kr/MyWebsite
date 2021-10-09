@@ -160,6 +160,17 @@ font-size: xx-large;
 text-align: center;
 
 }
+h1{
+animation: slidein 6s;
+animation-duration: 3s;
+}
+@keyframes slidein {
+    0% { margin-left:-10000px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
 
 @media (max-width: 900px)  {
     .floating {
