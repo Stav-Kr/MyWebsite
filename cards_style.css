@@ -14,13 +14,17 @@
 
 }
 
-.backBtn:hover{
-    color: #43b1ac;
+.backBtn{
+    
     
     
     text-align: center;
-    padding-top: 100px;
+    padding-top: 20px;
 
+}
+.backBtn:hover{
+    color: #43b1ac;
+    
 }
 
 html{
