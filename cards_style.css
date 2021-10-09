@@ -16,6 +16,11 @@
 
 .backBtn:hover{
     color: #43b1ac;
+    
+    
+    text-align: center;
+    padding-top: 100px;
+
 }
 
 html{
