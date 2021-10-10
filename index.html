@@ -1,57 +1,35 @@
 <!doctype html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
-<link rel="stylesheet" href="template.css">
-
-
-
-
+<link rel="stylesheet" href="styles/template.css">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Stavros' humble website</title>
-
 </head>
-
 <body width="device-width">
-
     <div class="top_wrapper">
-        <a href="https://stav-kr.github.io/DiceGame/" target="_blank">
-        <img class="floating" src="rocket.svg" alt="rock SVG" />
+        <a class="animate" href="https://stav-kr.github.io/DiceGame/" target="_blank">
+        <img class="floating" src="svgs/rocket.svg" alt="rock SVG" />
         </a>
-        <h1 id="name"><span class="greet">Hello there! I'm</span> <span class="stav">Stavros.</span></h1>
-        
-        <a href="info.html">
-        
-            <img class="modalbtn" src="icons8-info.svg">
-        
+        <h1  class="h1_anim" id="name"><span class="greet">Hello there! I'm</span> <span class="stav">Stavros.</span></h1>      
+        <a class="animate" href="info.html">
+            <img class="modalbtn" src="svgs/icons8-info.svg">       
+        </a>      
+        <a class="animate" href="https://github.com/Stav-Kr" target="_blank">
+            
+                <img src="svgs/icons8-github.svg">           
         </a>
-        
-
-        
-        
-        <a href="https://github.com/Stav-Kr" target="_blank">
+        <a class="animate" href="https://www.linkedin.com/in/stavros14/" target="_blank">
             
-                <img src="icons8-github.svg">
-            
+                <img src="svgs/icons8-linkedin.svg">
         </a>
-
-        <a href="https://www.linkedin.com/in/stavros14/" target="_blank">
+        <a class="animate" href="cards.html">
             
-                <img src="icons8-linkedin.svg">
-
-           
-        </a>
-        <a href="cards.html">
-            
-                <img src="architect-blueprint-project-manager-plan-svgrepo-com.svg">
-
-            
+                <img src="svgs/architect-blueprint-project-manager-plan-svgrepo-com.svg">
         </a>
     </div>
-
     <div class="footer">
         <h6> This site is a work in progress. Code on GitHub.</h6>
     </div>
@@ -68,9 +46,6 @@
             
         }
     </style>
-
-    <script src='main.js'></script>
-    
-
+    <script src="animation.js"> </script>
 </body>
 </html>

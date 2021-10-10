@@ -160,17 +160,23 @@ font-size: xx-large;
 text-align: center;
 
 }
-h1{
+.h1_anim{
+position:relative;
 animation: slidein 6s;
-animation-duration: 3s;
+animation-duration: 2s;
 }
 @keyframes slidein {
-    0% { margin-left:-10000px; }
-    20% { margin-left:-800px; }
-    35% { margin-left:0px; }
-    100% { margin-left:0px; }
+    from{left:-1000px;opacity:0} 
+    to{left:0;opacity:1}
 }
-
+.animate{
+    position:relative;
+    animation:animatetop 1s;
+}
+@keyframes animatetop{
+    from{top:-1000px;opacity:0} 
+    to{top:0;opacity:1}
+}
 
 @media (max-width: 900px)  {
     .floating {

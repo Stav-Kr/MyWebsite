@@ -22,6 +22,7 @@
     padding-top: 20px;
 
 }
+
 .backBtn:hover{
     color: #43b1ac;
     
@@ -61,7 +62,7 @@ html{
 
 .card-img{
     grid-area: img;
-    background: url('img_pass.png');
+    background: url('../projectimg/img_pass.png');
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -69,7 +70,7 @@ html{
 
 .card-img2{
     grid-area: img;
-    background: url('img_g.png');
+    background: url('../projectimg/img_g.png');
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -77,7 +78,7 @@ html{
 
 .card-img3{
     grid-area: img;
-    background: url('img_dice.png');
+    background: url('../projectimg/img_dice.png');
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
