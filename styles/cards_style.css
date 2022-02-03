@@ -79,6 +79,13 @@ html{
     border-top-right-radius: 15px;
     background-size: cover;
 }
+.card-img4{
+    grid-area: img;
+    background: url('../projectimg/img_hat.jpeg');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
 
 .card-text{
     grid-area: text;
